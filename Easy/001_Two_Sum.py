@@ -1,6 +1,10 @@
 """
-투썸
+LeetCode: 001_Two_Sum.py
+By Dongyoung Kim
+
+https://github.com/dkim4741
 """
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums)):

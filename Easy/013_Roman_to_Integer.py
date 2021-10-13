@@ -1,3 +1,10 @@
+"""
+LeetCode: 013_Roman_to_Integer.py
+By Dongyoung Kim
+
+https://github.com/dkim4741
+"""
+
 values = {
     "I" : 1,
     "V" : 5,
@@ -13,6 +20,7 @@ class Solution:
         total = 0
         i = 0
         while i < len(s):
+            # If subtractive case
             if i + 1 < len(s) and values[s[i]] < values[s[i + 1]]:
                 total += values[s[i + 1]] - values[s[i]]
                 i += 2
