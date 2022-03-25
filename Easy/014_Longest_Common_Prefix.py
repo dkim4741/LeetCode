@@ -3,7 +3,7 @@ LeetCode: 014_Longest_Common_Prefix.py
 By Dongyoung Kim
 
 참고:
-https://www.youtube.com/watch?v=HVHv-iJfpp8&ab_channel=%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8
+https://youtu.be/HVHv-iJfpp8
 
 https://github.com/dkim4741
 """
